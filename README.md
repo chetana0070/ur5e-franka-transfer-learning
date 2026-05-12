@@ -499,21 +499,18 @@ Potential future work:
 
 # References
 
-1. angcen Liu, Woo Chul Shin, Yunhai Han, Zhenyang Chen, Harish Ravichandar, and Danfei
+1. Yangcen Liu, Woo Chul Shin, Yunhai Han, Zhenyang Chen, Harish Ravichandar, and Danfei
 Xu. ImMimic: Cross-Domain Imitation from Human Videos via Mapping and Interpolation.
-arXiv:2509.10952, 2025
-2. Chi et al. — Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
-3. Wang et al. — MimicPlay
-4. Kareer et al. — EgoMimic
-5. Shaw et al. — VideoDex
-6. Heppert et al. — DITTO
-7. Xu et al. — XSkill
-8. Memmel et al. — STRAP
-9. Zhang et al. — MixUp
-10. Mueller — Dynamic Time Warping
-11. Gong et al. — DLOW
-12. Qin et al. — AnyTeleop
-
+arXiv:2509.10952, 2025.
+2. Cheng Chi, Zhenjia Xu, Siyuan Feng, Eric Cousineau, Yilun Du, Benjamin Burchfiel, Russ
+Tedrake, and Shuran Song. Diffusion Policy: Visuomotor Policy Learning via Action Diffusion.
+International Journal of Robotics Research, 2024.
+3.Chen Wang, Linxi Fan, Jiankai Sun, Ruohan Zhang, Li Fei-Fei, Danfei Xu, Yuke Zhu, and
+Anima Anandkumar. MimicPlay: Long-Horizon Imitation Learning by Watching Human Play.
+arXiv:2302.12422, 2023.
+4. Nick Heppert, Max Argus, Tim Welschehold, Thomas Brox, and Abhinav Valada. DITTO:
+Demonstration Imitation by Trajectory Transformation. IEEE/RSJ International Conference on
+Intelligent Robots and Systems, 2024.
 
 ---
 
@@ -534,4 +531,3 @@ Built using:
 - Diffusion models
 - Transformer architectures
 - Cross-domain imitation learning research
-```
