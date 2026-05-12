@@ -16,7 +16,7 @@ UR5e  →  Franka Panda
 
 inside simulation.
 
-The pipeline is inspired by the ImMimic framework and adapts cross-domain imitation learning into a fully reproducible robot-to-robot simulation environment. :contentReference[oaicite:0]{index=0}
+The pipeline is inspired by the ImMimic framework and adapts cross-domain imitation learning into a fully reproducible robot-to-robot simulation environment.
 
 The project focuses on:
 
@@ -95,7 +95,7 @@ Total:
 14 Dimensions
 ```
 
-This allows trajectories from different robots to become comparable. :contentReference[oaicite:1]{index=1}
+This allows trajectories from different robots to become comparable. 
 
 ---
 
@@ -119,7 +119,7 @@ Without DTW:
 - Demonstrations remain unaligned
 - Cross-training becomes noisy
 
-DTW creates meaningful temporal alignment between robots. :contentReference[oaicite:2]{index=2}
+DTW creates meaningful temporal alignment between robots. 
 
 ---
 
@@ -129,7 +129,6 @@ After DTW alignment, synthetic demonstrations are generated using interpolation.
 
 Formula:
 
-:contentReference[oaicite:3]{index=3}
 
 Used alpha values:
 
@@ -143,7 +142,7 @@ Purpose:
 - Smooth transition between source and target domains
 - Improve policy generalization
 
-This creates intermediate robot behaviors between UR5e and Franka. :contentReference[oaicite:4]{index=4}
+This creates intermediate robot behaviors between UR5e and Franka.  
 
 ---
 
@@ -180,7 +179,7 @@ The sequence model learns temporal manipulation behavior such as:
 - Transport
 - Placement
 
-:contentReference[oaicite:5]{index=5}
+
 
 ---
 
@@ -407,7 +406,7 @@ videos/
 
 # Results
 
-The final system was evaluated inside robosuite using Franka Panda. :contentReference[oaicite:6]{index=6}
+The final system was evaluated inside robosuite using Franka Panda. 
 
 ---
 
@@ -420,7 +419,6 @@ The final system was evaluated inside robosuite using Franka Panda. :contentRefe
 | Evaluation Horizon | 900 timesteps |
 | Control Frequency | 20 Hz |
 
-:contentReference[oaicite:7]{index=7}
 
 ---
 
@@ -433,7 +431,6 @@ The final system was evaluated inside robosuite using Franka Panda. :contentRefe
 | Real Franka Demonstration | 8.33 min |
 | Franka Sim Demonstration | 0.90 min |
 
-:contentReference[oaicite:8]{index=8}
 
 ---
 
@@ -461,7 +458,6 @@ Main contributions:
 - Stable sequence policy learning
 - High rollout success rate
 
-:contentReference[oaicite:9]{index=9}
 
 ---
 
@@ -482,7 +478,6 @@ Possible failure sources:
 - Insufficient target coverage
 - Simulation dynamics differences
 
-:contentReference[oaicite:10]{index=10}
 
 ---
 
@@ -504,7 +499,9 @@ Potential future work:
 
 # References
 
-1. Liu et al. — ImMimic: Cross-Domain Imitation from Human Videos via Mapping and Interpolation
+1. angcen Liu, Woo Chul Shin, Yunhai Han, Zhenyang Chen, Harish Ravichandar, and Danfei
+Xu. ImMimic: Cross-Domain Imitation from Human Videos via Mapping and Interpolation.
+arXiv:2509.10952, 2025
 2. Chi et al. — Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
 3. Wang et al. — MimicPlay
 4. Kareer et al. — EgoMimic
@@ -517,7 +514,6 @@ Potential future work:
 11. Gong et al. — DLOW
 12. Qin et al. — AnyTeleop
 
-:contentReference[oaicite:11]{index=11}
 
 ---
 
