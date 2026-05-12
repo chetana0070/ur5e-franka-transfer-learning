@@ -1,0 +1,72 @@
+[4.0K]  .
+├── [4.0K]  checkpoints
+│   ├── [849K]  diffusion_best.pth
+│   └── [4.0K]  transformer_single_step_14d
+│       ├── [3.1M]  best_transformer_single_step_14d.pt
+│       └── [ 385]  config.json
+├── [4.0K]  data
+│   ├── [4.0K]  aligned
+│   │   ├── [ 17M]  ur5e_franka_pick_place_aligned_pairs_v1.hdf5
+│   │   ├── [431K]  ur5e_to_franka_pick_place_dtw_mapping_v1.json
+│   │   └── [843K]  ur5e_to_franka_pick_place_dtw_paths_v1.json
+│   ├── [4.0K]  final
+│   │   └── [ 48M]  pick_place_shared_cotrain_v1.hdf5
+│   ├── [4.0K]  interpolated
+│   │   └── [ 46M]  ur5e_franka_pick_place_interpolated_v1.hdf5
+│   ├── [4.0K]  raw
+│   │   ├── [1.8M]  franka_pick_place_random_goal.hdf5
+│   │   └── [ 10M]  ur5e_pick_place_random_goal.hdf5
+│   └── [4.0K]  shared
+│       ├── [1.8M]  franka_pick_place_shared_v1.hdf5
+│       └── [9.2M]  ur5e_pick_place_shared_v1.hdf5
+├── [   0]  FILE_MANIFEST.txt
+├── [4.0K]  logs
+│   ├── [ 16K]  eval_transformer_14d_1ep.log
+│   ├── [7.0K]  inspect_14d_obs_meaning.log
+│   └── [4.4K]  transformer_single_step_14d_train.log
+├── [4.0K]  models
+│   ├── [ 13K]  diffusion_policy.py
+│   └── [4.0K]  transformer
+│       └── [2.0K]  transformer_policy.py
+├── [4.0K]  my_tests
+│   └── [4.0K]  debug
+│       ├── [2.2K]  inspect_14d_obs_meaning.py
+│       └── [2.2K]  inspect_shared_dataset.py
+├── [ 650]  README.md
+├── [4.0K]  recordings
+│   └── [4.0K]  transformer_14d_runs_20260427_154108
+│       ├── [3.2K]  ffmpeg_concat.log
+│       ├── [ 19K]  ffmpeg_rollout_01.log
+│       ├── [ 19K]  ffmpeg_rollout_02.log
+│       ├── [ 19K]  ffmpeg_rollout_03.log
+│       ├── [ 10M]  rollout_01.mp4
+│       ├── [9.7M]  rollout_02.mp4
+│       ├── [ 10M]  rollout_03.mp4
+│       ├── [ 30M]  transformer_14d_all_rollouts_20260427_154108.mp4
+│       └── [ 381]  video_list.txt
+├── [  48]  requirements.txt
+├── [1.5K]  RESULTS.md
+├── [3.7K]  run_record_transformer_14d.sh
+└── [4.0K]  src
+    ├── [4.0K]  alignment
+    │   ├── [3.9K]  build_aligned_pairs.py
+    │   ├── [3.5K]  dtw_all_pairs.py
+    │   └── [2.4K]  save_best_dtw_paths.py
+    ├── [4.0K]  data_collection
+    │   ├── [ 16K]  collect_franka_pick_place_random_goal.py
+    │   └── [ 16K]  collect_ur5e_pick_place_random_goal_v2.py
+    ├── [4.0K]  dataset
+    │   └── [7.8K]  merge_shared_training_data.py
+    ├── [4.0K]  evaluation
+    │   ├── [7.1K]  eval_diffusion_shared_on_franka.py
+    │   └── [7.5K]  eval_transformer_on_franka_14d.py
+    ├── [4.0K]  interpolation
+    │   └── [5.1K]  interpolate_ur5e_franka_mixup.py
+    ├── [4.0K]  preprocessing
+    │   └── [4.8K]  convert_pick_place_to_shared.py
+    └── [4.0K]  training
+        ├── [3.6K]  diffusion_shared_cotrain.json
+        ├── [ 688]  train_diffusion_shared.sh
+        └── [9.8K]  train_transformer_shared.py
+
+24 directories, 46 files

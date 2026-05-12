@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.env
+venv/
+conda/
+
+# Logs
+logs/
+*.log
+
+# Checkpoints
+checkpoints/
+*.pt
+*.pth
+
+# Results
+results/
+videos/
+
+# Data
+data/raw/
+data/interpolated/
+data/aligned/
+data/merged/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MuJoCo
+.mujoco/
+
+# IDE
+.vscode/
+.idea/
+
